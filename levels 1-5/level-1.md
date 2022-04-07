@@ -88,10 +88,10 @@ Next, we are going to send some ether to the contract in order to execute the fa
 await contract.contribute.sendTransaction({value: "100"})
 ```
 
-By sending ether to the contract, we have become the contract owner. We can verify this by ensuring that the following outputs our wallet address:
+By sending ether to the contract, we have become the contract owner. We can verify this by ensuring that the following outputs `true`:
 
 ```
-await contract.owner()
+await contract.owner() === player
 ```
 
 Finally, we can empty the contract and complete the level:

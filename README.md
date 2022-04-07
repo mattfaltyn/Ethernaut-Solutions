@@ -1,2 +1,30 @@
 # Ethernaut Solutions
-My solutions to the Ethernaut wargame developed by OpenZeppelin
+My solutions to the Ethernaut wargame developed by OpenZeppelin.
+
+## Levels - Status
+1. Fallback - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-1.md)
+2. Fallout - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-2.md)
+3. Coin Flip - Not Started
+4. Telephone - Not Started
+5. Token - Not Started
+6. Delegation - Not Started
+7. Force - Not Started
+8. Vault - Not Started
+9. King  - Not Started
+10. Re-entrancy  - Not Started
+11. Elevator - Not Started
+12. Privacy - Not Started
+13. Gatekeeper One - Not Started
+14. Gatekeeper Two - Not Started
+15. Naught Coin - Not Started
+16. Preservation - Not Started
+17. Recovery - Not Started
+18. MagicNumber - Not Started
+19. Alien Codex - Not Started
+20. Denial - Not Started
+21. Shop - Not Started
+22. Dex - Not Started
+23. Dex Two - Not Started
+24. Puzzle Wallet - Not Started
+25. Motorbike - Not Started
+26. DoubleEntryPoint - Not Started

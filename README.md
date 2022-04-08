@@ -4,7 +4,7 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 ## Levels - Status
 1. Fallback - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-1.md)
 2. Fallout - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-2.md)
-3. Coin Flip - Not Started
+3. Coin Flip - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-3.md)
 4. Telephone - Not Started
 5. Token - Not Started
 6. Delegation - Not Started

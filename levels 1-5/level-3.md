@@ -49,7 +49,7 @@ contract CoinFlip {
 
 ### Solution
 
-As we can see in the contract, the coin flip is determined by the remainder of the hashed block number divided by the factor constant. This
+As we can see in the contract, the coin flip is determined by the remainder of the hashed block number divided by the factor constant.
 
 Unfortunately, this coin flip is not random at all and can be easily exploited with the following contract:
 

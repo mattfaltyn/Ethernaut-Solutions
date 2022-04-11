@@ -2,11 +2,11 @@
 My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) developed by [OpenZeppelin](https://openzeppelin.com/).
 
 ## Levels - Status
-1. Fallback - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-1.md)
-2. Fallout - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-2.md)
-3. Coin Flip - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-3.md)
-4. Telephone - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-4.md)
-5. Token - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/levels%201-5/level-5.md) 
+1. Fallback - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-1.md)
+2. Fallout - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-2.md)
+3. Coin Flip - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-3.md)
+4. Telephone - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-4.md)
+5. Token - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-5.md) 
 6. Delegation - Not Started
 7. Force - Not Started
 8. Vault - Not Started

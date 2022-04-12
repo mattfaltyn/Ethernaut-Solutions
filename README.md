@@ -7,7 +7,7 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 3. Coin Flip - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-3.md)
 4. Telephone - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-4.md)
 5. Token - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-5.md) 
-6. Delegation - Not Started
+6. Delegation - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-6.md) 
 7. Force - Not Started
 8. Vault - Not Started
 9. King  - Not Started

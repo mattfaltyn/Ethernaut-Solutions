@@ -9,7 +9,7 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 5. Token - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-5/level-5.md) 
 6. Delegation - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-6.md) 
 7. Force - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-7.md)
-8. Vault - Not Started
+8. Vault - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-8.md)
 9. King  - Not Started
 10. Re-entrancy  - Not Started
 11. Elevator - Not Started

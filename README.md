@@ -10,7 +10,7 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 6. Delegation - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-6.md) 
 7. Force - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-7.md)
 8. Vault - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-8.md)
-9. King  - Not Started
+9. King  - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%206-10/level-9.md)
 10. Re-entrancy  - Not Started
 11. Elevator - Not Started
 12. Privacy - Not Started

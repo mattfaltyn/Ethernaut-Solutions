@@ -12,8 +12,8 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 8. Vault - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-9/level-8.md)
 9. King  - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-9/level-9.md)
 10. Re-entrancy  - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-10.md)
-11. Elevator - Not Started
-12. Privacy - Not Started
+11. Elevator - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-11.md)
+12. Privacy - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-12.md)
 13. Gatekeeper One - Not Started
 14. Gatekeeper Two - Not Started
 15. Naught Coin - Not Started

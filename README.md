@@ -1,5 +1,5 @@
 # Ethernaut Solutions
-My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) developed by [OpenZeppelin](https://openzeppelin.com/).
+Solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) developed by [OpenZeppelin](https://openzeppelin.com/).
 
 ## Levels - Status
 1. Fallback - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%201-9/level-1.md)

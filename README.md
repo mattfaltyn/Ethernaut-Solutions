@@ -16,15 +16,15 @@ My solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) dev
 12. Privacy - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-12.md)
 13. Gatekeeper One - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-13.md)
 14. Gatekeeper Two - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-14.md)
-15. Naught Coin - Not Started
-16. Preservation - Not Started
-17. Recovery - Not Started
-18. MagicNumber - Not Started
-19. Alien Codex - Not Started
-20. Denial - Not Started
-21. Shop - Not Started
-22. Dex - Not Started
-23. Dex Two - Not Started
-24. Puzzle Wallet - Not Started
-25. Motorbike - Not Started
-26. DoubleEntryPoint - Not Started
+15. Naught Coin - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-15.md)
+16. Preservation - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-16.md)
+17. Recovery - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-17.md)
+18. MagicNumber - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-18.md)
+19. Alien Codex - Not Uploaded
+20. Denial - Not Uploaded
+21. Shop - Not Uploaded
+22. Dex - Not Uploaded
+23. Dex Two - Not Uploaded
+24. Puzzle Wallet - Not Uploaded
+25. Motorbike - Not Uploaded
+26. DoubleEntryPoint - Not Uploaded

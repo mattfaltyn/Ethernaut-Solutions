@@ -20,8 +20,8 @@ Solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) develo
 16. Preservation - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-16.md)
 17. Recovery - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-17.md)
 18. MagicNumber - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-18.md)
-19. Alien Codex - Not Uploaded
-20. Denial - Not Uploaded
+19. Alien Codex - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2010-19/level-19.md)
+20. Denial - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-29/level-20.md)
 21. Shop - Not Uploaded
 22. Dex - Not Uploaded
 23. Dex Two - Not Uploaded

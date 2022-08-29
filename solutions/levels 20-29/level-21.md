@@ -35,8 +35,6 @@ contract Shop {
 
 Solution inspired by [this_post](https://medium.com/@this_post):
 
-First, create a contract with an infinite loop that consumes all forwarding gas:
-
 ```
 contract solveShop {
 

@@ -24,7 +24,7 @@ Solutions to the [Ethernaut wargame](https://ethernaut.openzeppelin.com/) develo
 20. Denial - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-29/level-20.md)
 21. Shop - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-29/level-21.md)
 22. Dex - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-29/level-22.md)
-23. Dex Two - Not Uploaded
-24. Puzzle Wallet - Not Uploaded
-25. Motorbike - Not Uploaded
-26. DoubleEntryPoint - Not Uploaded
+23. Dex Two - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-26/level-23.md)
+24. Puzzle Wallet - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-26/level-24.md)
+25. Motorbike - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-26/level-25.md)
+26. DoubleEntryPoint - [Complete](https://github.com/mattfaltyn/Ethernaut-Solutions/blob/main/solutions/levels%2020-26/level-26.md)
